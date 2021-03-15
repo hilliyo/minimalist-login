@@ -10,6 +10,22 @@
 	<script type="text/javascript" src="validation.js"></script>
 </head>
 <body>
-	
+	<div id="main-container" class="container">
+		<div id="form-container">
+			<div id="image-container" class="form-container">
+				<img src="img/user.svg" id="user-icon">
+			</div>
+			<div id="fields-container" class="form-container">
+				<form action="" name="login-form" method="POST">
+					<input type="text" name="username" placeholder="Username">
+					<p class="error-message" id="error-message1">Invalid username</p>
+					<input type="password" name="password" placeholder="Password">
+					<p class="error-message" id="error-message2">The password must contain a<br>minimum of 8 characters</p>
+					<input type="submit" name="login-button" value="Log In">
+				</form>
+
+			</div>
+		</div>
+	</div>
 </body>
 </html>
