@@ -2,6 +2,8 @@
 <html lang="es">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
 <head>
 	<title>Login</title>
 	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
@@ -11,16 +13,15 @@
 </head>
 <body>
 	<div id="form-container">
-		<div id="image-container">
-			<img src="img/user.svg" id="user-icon">
-		</div>
+		<h2>Welcome</h2>
+		<h3>Please, log in.</h3>
 		<div id="fields-container">
 			<form action="" name="login-form" method="POST">
 				<input type="text" name="username" class="text" placeholder="Username">
 				<p class="error-message" id="error-message1">Invalid username</p>
 				<input type="password" name="password" class="text" placeholder="Password">
 				<p class="error-message" id="error-message2">The password must contain a<br>minimum of 8 characters</p>
-				<input type="submit" name="login-button" value="Log In">
+				<input type="submit" name="login-button" id="login-button" value="Log In">
 			</form>
 		</div>
 	</div>
