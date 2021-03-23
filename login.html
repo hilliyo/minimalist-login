@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,15 +12,17 @@
 </head>
 <body>
 	<div id="form-container">
-		<h2>Welcome</h2>
-		<h3>Please, log in.</h3>
+		<h2>Welcome!</h2>
+		<h3>Please, log in</h3>
 		<div id="fields-container">
 			<form action="" name="login-form" method="POST">
-				<input type="text" id="username" name="username" class="text" placeholder="Username">
-				<p class="error-message" id="error-message1">Invalid username</p>
-				<input type="password" id="password" name="password" class="text" placeholder="Password">
-				<p class="error-message" id="error-message2">The password must contain a<br>minimum of 8 characters</p>
-				<input type="submit" name="login-button" id="login-button" value="Log In">
+				<ul>
+				<li><input type="text" id="username" required name="username" class="text" placeholder="Username"></li>
+				<li><p class="error-message" id="error-message1">Invalid username</p></li>
+				<li><input type="password" id="password" required name="password" class="text" placeholder="Password"></li>
+				<li><p class="error-message" id="error-message2">The password must contain a<br>minimum of 8 characters</p></li>
+				<li><input type="submit" name="login-button" id="login-button" value="Log In"></li>
+				</ul>
 			</form>
 		</div>
 	</div>
