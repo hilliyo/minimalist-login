@@ -11,6 +11,9 @@ function start(){
 
 	usernameField.addEventListener("blur", validateUsername, false);
 	passwordField.addEventListener("blur", validatePassword, false);
+
+	usernameField.addEventListener("keyup", validateUsername, false);
+	passwordField.addEventListener("keyup", validatePassword, false);
 }
 
 
