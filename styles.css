@@ -1,5 +1,5 @@
 body{
-	background-color: #D5FAF8;
+	background-color: #FFF;
 	background-size: 100%;
 	display: flex;
 	justify-content: center;
@@ -8,7 +8,6 @@ body{
 }
 
 #fields-container{
-	/*border: 2px solid green;*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -18,9 +17,9 @@ body{
 }
 
 #form-container{
-	background: #000;
+	background: #DBDBDB;
 	margin:50px auto;
-	border: 2px solid #fff;
+	border: 1px solid #000;
 	width: 400px;
 }
 
@@ -43,25 +42,32 @@ input{
 }
 
 #login-button{
-	background: #48DF91;
+	background: #000;
 	border: none;
-	border-radius: 20px;
+	color: #FFF;
 }
 
 #login-button:hover, #login-button:focus{
-	background: #A5E8E0;
+	background: #54606B;
+}
+
+#login-button:active{
+	background: #0F2030;
+	border: 3px solid #DBDBDB;
 }
 
 h2, h3{
-	color: #FFF;
+	color: #000;
 	text-align: center;
 }
 
 ul{
 	width: 100%;
 	list-style: none;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
+	display: inline;
+	text-align: center;
 }
 li{
 	width: 100%;
