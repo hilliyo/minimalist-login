@@ -31,10 +31,6 @@ input{
 	border: 1px solid #000;
 }
 
-.text:focus{
-	background-color: #DBDBDB;
-}
-
 .error-message{
 	display: none;
 	color: #EB494F;
