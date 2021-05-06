@@ -29,6 +29,8 @@ input{
 	height: 40px;
 	margin: 10px auto;
 	/*border: 1px solid #000;*/
+	border: 0;
+	outline: none;
 }
 
 .error-message{
@@ -37,6 +39,13 @@ input{
 	text-align: center;
 }
 
+.text{
+	border: 1px solid #DBDBDB;
+	background: #DBDBDB;
+}
+.text:focus{
+	background: #BABABA;
+}
 #login-button{
 	background: #000;
 	border: none;
