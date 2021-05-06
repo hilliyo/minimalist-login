@@ -17,18 +17,18 @@ body{
 }
 
 #form-container{
-	background: #FFF;
+	background: #DBDBDB;
 	margin:50px auto;
-	/*border: 1px solid #000;*/
+	border: 1px solid #000;
 	width: 400px;
 }
 
 input{
 	text-align: center;
-	width: 90%;
+	width: 100%;
 	height: 40px;
 	margin: 10px auto;
-	/*border: 1px solid #000;*/
+	border: 1px solid #000;
 }
 
 .error-message{
