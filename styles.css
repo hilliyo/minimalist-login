@@ -33,12 +33,6 @@ input{
 	outline: none;
 }
 
-.error-message{
-	display: none;
-	color: #EB494F;
-	text-align: center;
-}
-
 .text{
 	border: 1px solid #DBDBDB;
 	background: #DBDBDB;
